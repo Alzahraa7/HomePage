@@ -1,0 +1,188 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin:0px;
+}
+.offer{
+    background-color: #d8a48e;
+    width: 100%;
+    height: 2%;
+    text-align: center;
+    padding: 10px 0px;
+}
+.offerprag{
+    color: white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    /*background:linear-gradient(180deg, #8cd0e3, #d8a48e);*/
+    background-color: #8cd0e3;
+    height: 20%;
+    min-height: fit-content;
+}
+.navlist{
+    list-style-type:none;
+    display: inline;
+    color: white;
+}
+
+li[class="navitem"]{
+    display:inline;
+    margin-left: 10px;
+}
+.logo{
+    text-align: center;
+    position: relative;
+    top: 0%;
+    font-size:xx-large;
+    font-family: Montserrat,Arial,Helvetica,sans-serif;   
+}
+.logo:hover{
+    color: rgb(238, 238, 4);
+    text-shadow: 2px 1px rgb(238, 238, 4) ;
+}
+.logo>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.navlist2{
+    position: relative;
+    bottom: 0px;
+    list-style-type:none;
+    display: inline-block;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.navitem:hover{
+    color: rgb(238, 238, 4);
+    text-shadow: 2px 1px rgb(238, 238, 4) ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.imgslider{
+    width:100%;
+    margin-top: 2px;
+    align-items: center;
+filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.7));
+}
+.imgslider:hover{
+   box-shadow: inset 10px 5px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(0.99);
+    -webkit-filter: brightness(90%);
+}
+.cards{
+    position: relative;
+    text-align: center;
+    padding: 40px 40px;
+    max-width: 1500px;
+    margin-left: 4px;
+}
+.carddiv{
+    position: relative;
+    float:left;
+    margin: 2%;
+    text-align: center;
+    border-radius: 5px;
+    filter: drop-shadow(0px 12px 5px rgba(0, 0, 0, 0.25));
+}
+.carddiv:hover{
+    /*transform: scale(1.05);
+    -webkit-transition: transform 2s ease-in-out;*/
+    -webkit-filter: brightness(70%);
+    transition: all 1s ease;
+    transform:  scale(0.99) ;
+}
+.desc{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 50%;
+    color: white;
+    font-size: x-large;
+}
+.but{
+    position: absolute;
+    text-align: center;
+    left: 60%;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: large;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    border:3px solid white;
+}
+.card{
+    position: relative;
+    float:left;
+    margin: 1%;
+    width: 50%;
+}
+.cardsdiv{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0, 195, 255, 0.3);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding: 40px 40px;
+  max-width: 1500px;
+  margin-left: 4px;
+}
+.proddesc{
+    position: absolute;
+    text-align: center;
+    color: black;
+    background:#8cd0e3 ;
+    border-radius:5px;
+    left: 30%;
+    top: 50%;
+    font-size: large;
+}
+.carddiv{
+    position: relative;
+    float:left;
+    margin: 2%;
+    text-align: justify;
+    color: black;
+}
+.breif{
+    background-color: wheat;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.footer{
+    background:#3a3f41;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    height: 350px;
+}
+h1{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.links{
+    line-height: 30px;
+    display: inline-block;
+}
