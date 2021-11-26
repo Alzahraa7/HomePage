@@ -36,7 +36,7 @@ li[class="navitem"]{
 .logo{
     text-align: center;
     position: relative;
-    top: 0%;
+    top: -5px;
     font-size:xx-large;
     font-family: Montserrat,Arial,Helvetica,sans-serif;   
 }
